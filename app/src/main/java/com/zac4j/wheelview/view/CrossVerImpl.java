@@ -7,8 +7,7 @@ import android.graphics.Rect;
 import android.text.TextPaint;
 import android.view.VelocityTracker;
 
-import com.zac.ls.widget.wheel.core.WheelScroller;
-
+import com.zac4j.wheelview.core.WheelScroller;
 import java.util.HashMap;
 
 class CrossVerImpl implements ICrossOrientation {

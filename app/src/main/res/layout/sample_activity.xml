@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    >
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      >
+    <include layout="@layout/include_actionbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/space.small"
+        android:orientation="horizontal"
+        >
+      <android.support.design.widget.TextInputLayout
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="4"
+          >
+        <android.support.design.widget.TextInputEditText
+            android:id="@id/sample_et_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="选择的地址"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            />
+      </android.support.design.widget.TextInputLayout>
+
+      <Button
+          android:id="@id/sample_btn_add_address"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="添加"
+          style="@style/Widget.AppCompat.Button.Colored"
+          />
+
+    </LinearLayout>
+  </LinearLayout>
+  <include layout="@layout/include_wheelview_group"/>
+</android.support.design.widget.CoordinatorLayout>

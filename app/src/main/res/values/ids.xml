@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="main_wheel_province" type="id" />
-    <item name="main_wheel_city" type="id" />
-    <item name="main_wheel_state" type="id" />
-    <item name="main_wheel_district" type="id" />
+  <item name="toolbar" type="id"/>
+  <item name="appbar" type="id"/>
+  <item name="root_layout" type="id" />
+  <item name="main_wheel_province" type="id"/>
+  <item name="main_wheel_city" type="id"/>
+  <item name="main_wheel_state" type="id"/>
+  <item name="main_wheel_district" type="id"/>
+  <item name="sample_et_address" type="id"/>
+  <item name="sample_btn_add_address" type="id"/>
+  <item name="bottom_sheet_layout" type="id"/>
 </resources>

@@ -18,6 +18,8 @@ import android.view.View;
 import android.view.ViewConfiguration;
 import android.view.animation.DecelerateInterpolator;
 
+import com.zac4j.wheelview.R;
+
 import java.util.Arrays;
 import java.util.List;
 

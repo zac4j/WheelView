@@ -19,4 +19,6 @@
   <dimen name="size.medium">14sp</dimen>
   <dimen name="size.small">12sp</dimen>
 
+  <dimen name="height.medium">96dp</dimen>
+  <dimen name="height.small">48dp</dimen>
 </resources>
